@@ -38,4 +38,4 @@ trainer.train()
 metrics = trainer.evaluate(test_dataset)
 print(metrics)
 
-trainer.model._save_pretrained()
+trainer.model._save_pretrained('/root/setfit-demo/model')
